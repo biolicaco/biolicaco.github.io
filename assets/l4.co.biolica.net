@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<input type="hidden" class="country_code" value="">
+<html lang="co">
+<head>
+	 <base >
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Biolica</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="../https@ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<script src="js/timer.js"></script>
+<style>
+	.hide , .flag-dropdown {display: none;}
+	.error-box{
+	color: #fff;
+	background-color: #DE5042;
+	border-radius: 5px;
+	text-align: center;
+	width: 240px;
+	font-size: 13px;
+	line-height: 20px;
+	margin:5px auto !important;
+	z-index: 100;
+}
+</style>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+				<div class="header__title">
+					<h1>BIOLICA</h1>
+				</div>
+				<div class="header__subtitle">
+					<p>Despidete del exceso de peso PARA SIEMPRE!</p>
+				</div>
+				<div class="header__product-img">
+					<img src="img/product.png" alt="">
+				</div>
+		</div>
+			
+	</header>
+	<main>
+		<section class="form-section">
+			<div class="container">
+				<div class="price-block">
+					<div class="oldprice">
+						<span class="labelForLandingInfoApi">$</span>
+						<span class="oldPriceForLandingInfoApi pricedote">218.000</span>
+					</div>
+					<div class="newprice">
+						<span class="labelForLandingInfoApi">$</span>
+						<span class="priceForLandingInfoApi pricedote">109.000</span>
+					</div>
+				</div>
+				<div class="form-section__title">
+					<span>ADELGAZAMIENTO-RAPIDO  <br>1 TRATAMIENTO</span>
+					<span>Sin efecto yo-yo</span>
+				</div>
+				<div class="form-block">
+					<div class="form-block__title">
+						<span>El descuento del 50% solo es válido hasta</span>
+					</div>
+					<div class="form-block__timer timer">
+
+						<span class="hour">
+							<span class="num hour0">-</span>
+							<span class="num hour1">-</span>
+						</span>
+						:
+						<span class="minute">
+							<span class="num min0">-</span>
+							<span class="num min1">-</span>
+						</span> 
+						:
+						<span class="second">
+							<span class="num sec0">-</span>
+							<span class="num sec1">-</span>
+						</span>
+					</div>
+					<form class="form" action="" method="POST" id="form">
+						<input type="hidden" name="country" value="CO">
+						<input type="text" name="name" placeholder="Nombre" required="required">
+						<input type="tel" name="phone" placeholder="Número de Teléfono" required="required">
+						<button type="submit">PEDIR</button>
+					</form>
+					<div class="form-price">
+						<div class="form-price__product">
+							<img src="img/mini-product.png" alt="">
+						</div>
+						<div class="form-price__price">
+							<span class="oldprice">
+								Precio antiguo 
+								<s><span class="labelForLandingInfoApi">$</span>
+								<span class="oldPriceForLandingInfoApi pricedote">218.000</span></s>
+							</span>
+							<span class="newprice">
+								Nuevo precio<br>
+								<span class="labelForLandingInfoApi">$</span>
+								<span class="priceForLandingInfoApi pricedote">109.000</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec1">
+			<div class="container">
+				<div class="title">
+					<h3>BIOLICA</h3>
+					</div>
+					<div class="list-block">
+						<div class="list-item">
+							<div class="list-img">
+								<img src="img/list-img1.png" alt="">
+							</div>
+							<div class="list-text">
+								<span>Reduce el apetito</span>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="list-img">
+								<img src="img/list-img2.png" alt="">
+							</div>
+							<div class="list-text">
+								<span>Acelera el metabolismo</span>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="list-img">
+								<img src="img/list-img3.png" alt="">
+							</div>
+							<div class="list-text">
+								<span>Quema las grasas</span>
+							</div>
+						</div>
+						<div class="list-item">
+							<div class="list-img">
+								<img src="img/list-img4.png" alt="">
+							</div>
+							<div class="list-text">
+								<span>Mejora el tono de la piel</span>
+							</div>
+						</div>
+					</div>
+				
+			</div>
+		</section>
+		<section class="sec2">
+			<div class="container">
+				<div class="title">
+					<h3>LO MEJOR DE LA NATURALEZA PARA UNA FIGURA PERFECTA</h3>
+				</div>
+				<div class="composition-list wrapper">
+					<div class="composition-list__item ">
+						<div class="composition-img">
+							<img src="img/spirulina.png" alt="">
+						</div>
+						<div class="composition-text">
+							<span>Spirulina</span>
+							<p>Reduce el apetito, elimina escorias y toxinas, fortalece el sistema inmune.
+</p>
+						</div>
+					</div>
+					<div class="composition-list__item">
+						<div class="composition-img">
+							<img src="img/artishok.png" alt="">
+						</div>
+						<div class="composition-text">
+							<span>Alcachofas</span>
+							<p>Acelerar el metabolismo, promoviendo la división intensiva de grasas</p>
+						</div>
+					</div>
+					<div class="composition-list__item">
+						<div class="composition-img">
+							<img src="img/chia.png" alt="">
+						</div>
+						<div class="composition-text">
+							<span>Semillas de lino + semillas de Chía</span>
+							<p>Bloquean la absorción de grasas en el cuerpo. Estabilizan el trabajo de los órganos internos, mejoran la condición de la piel, el cabello, las uñas.</p>
+						</div>
+					</div>
+					<div class="composition-list__item">
+						<div class="composition-img">
+							<img src="img/eag.png" alt="">
+						</div>
+						<div class="composition-text">
+							<span>Berenjenas</span>
+							<p>Reduce el colesterol, mejora el estado de ánimo y prolonga la juventud a nivel celular.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec3">
+			<div class="container">
+				<div class="title">
+					<h3>¡Liposucción natural no. 1 sin bisturí!</h3>
+				</div>
+				<div class="doctor-img">
+					<img src="img/doctor.png" alt="">
+				</div>
+				<div class="doctor-content">
+					<span>OPINION DE UN EXPERTO</span>
+					<p>PATRICIA IBAÉZ DIETOLOGA - NUTRICIONISTA, DOCTOR EN CIENCIAS MEDICAS., PROFESORA</p>
+					<p>Como nutricionista con muchos años de experiencia, quiero señalar la alta eficiencia de BIOLICA: un complejo 100% natural con potentes componentes que ayudan a quemar grasa de forma natural. </p>
+					<span>El uso regular de Biolica activa el proceso de pérdida de peso en 3 pasos:</span>
+				</div>
+				<div class="step-list">
+					<ol>
+						<li>
+							<div>
+							<p>1 - Disminución del apetito, limpieza de toxinas y exceso de líquido</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<p>2 - Acelera el metabolismo, separa los depósitos de grasa y ayuda a expulsarlos del organismo, reduce el colesterol </p>
+							</div> 
+						</li>
+						<li>
+							<div>
+								<p>3 - Fortalecimiento del sistema inmune y rejuvenecimiento a nivel celular.</p>
+							</div>
+						</li>
+					</ol>
+				</div>
+				<div class="paragraph">
+					<p>
+						Con un curso de Biolica no solo se reduce intensamente el peso, sino que también evita el regreso de los kg al bloquear las calorías. ¡Esto garantiza un resultado estable durante mucho tiempo!
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="sec4">
+			<div class="container">
+				<div class="title">
+					<h3>MÉTODO DE APLICACIÓN</h3>
+				</div>
+				<div class="use-list">
+					<div class="use-list__item">
+						<div class="use-list__img">
+							<img src="img/calendar.png" alt="">
+						</div>
+						<div class="use-list__text">
+							<p>5 gr dos veces al día después de comer * cuchara medidora incluida en el paquete</p>
+						</div>
+					</div>
+					<div class="use-list__item">
+						<div class="use-list__img">
+							<img src="img/cup.png" alt="">
+						</div>
+						<div class="use-list__text">
+							<p>agregue 5 gr del polvo a 200 ml de jugo de fruta de su elección, revuelva bien y beba de inmediato.</p>
+						</div>
+					</div>
+					<div class="use-list__item">
+						<div class="use-list__img">
+							<img src="img/cherry.png" alt="">
+						</div>
+						<div class="use-list__text">
+							<p>Se recomienda jugo de naranja, jugo de piña, jugo de naranja-piña y / o naranja-plátano. Agregue hielo si lo desea. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec5">
+			<div class="container">
+				<div class="title">
+					<h3>¿CÓMO BIOLICA YA HA AYUDADO A OTRAS PERSONAS?</h3>
+				</div>
+				<div class="comment-block comment-slide">
+					<div class="comment-block__item">
+						<div class="comment-block__header">
+							<div class="comment-block__img">
+								<img src="img/comment1.png" alt="">
+							</div>
+							<div class="comment-block__name">
+								<span>María,<br> 39 años</span>
+							</div>
+							<div class="comment-block__stars">
+								<img src="img/com1-stars.png" alt="">
+							</div>
+						</div>
+						<div class="comment-block__content">
+							<p>
+								ВSiempre soñé con perder peso, 
+pero nunca funcionó 
+- Los niños, el trabajo, los nervios... 
+Al enterarme de que mi amiga perdió peso 
+con Biolica en solo 3 semanas
+ - decidí intentarlo. 
+¿El resultado? 16 kg menos por
+ 1 curso. Finalmente amo
+ mi cuerpo! 
+Gracias al fabricante!
+							</p>
+						</div>
+					</div>
+					<div class="comment-block__item">
+						<div class="comment-block__header">
+							<div class="comment-block__img">
+								<img src="img/comment2.png" alt="">
+							</div>
+							<div class="comment-block__name">
+								<span>Alberto,<br> 47 años
+
+</span>
+							</div>
+							<div class="comment-block__stars">
+								<img src="img/com2-stars.png" alt="">
+							</div>
+						</div>
+						<div class="comment-block__content">
+							<p>
+								Mi joven esposa comenzó
+coquetear con otros hombres.
+Me inscribí en el gimnasio para perder peso.
+Pero no hubo resultados. Yo 
+me sentí como un perdedor. 
+Entonces mi esposa me ordenó Biolica
+ - ¡y el proceso comenzó! En mi primera semana
+perdí 4 kg, para los siguientes 3 
+- 13,5 kg más. Total del mes: -17,5 kg 
+¡Estoy encantado! Estoy seguro de mi 
+poder y se que puedo competir 
+incluso con chicos jóvenes!
+
+
+							</p>
+						</div>
+					</div>
+					<div class="comment-block__item">
+						<div class="comment-block__header">
+							<div class="comment-block__img">
+								<img src="img/comment3.png" alt="">
+							</div>
+							<div class="comment-block__name">
+								<span>Julia,<br> 26 años
+
+</span>
+							</div>
+							<div class="comment-block__stars">
+								<img src="img/com3-stars.png" alt="">
+							</div>
+						</div>
+						<div class="comment-block__content">
+							<p>
+								Después del embarazo, tuve un
+fallo hormonal y empecé
+aumentar de peso rápidamente. Subí  
+26 kg en seis meses! que Horror. Me sentía
+deforme y ya no me sentía 
+sexy. 
+Un nutricionista me habló de Biolica. 
+Dudé del éxito, pero sentí
+ efecto desde la primera semana. El hambre desapareció, 
+el metabolismo fu mejorado, el abdomen 
+se volvió plano. Con un curso curso perdí 
+18 kg y ahora estoy feliz de nuevo!
+							</p>
+						</div>
+					</div>
+					<div class="comment-block__item">
+						<div class="comment-block__header">
+							<div class="comment-block__img">
+								<img src="img/comment4.png" alt="">
+							</div>
+							<div class="comment-block__name">
+								<span>Laura,<br> 56 años
+
+</span>
+							</div>
+							<div class="comment-block__stars">
+								<img src="img/com4-stars.png" alt="">
+							</div>
+						</div>
+						<div class="comment-block__content">
+							<p>
+								Después de 30 años, perder peso es difícil, 
+¡y a mi edad es IMPOSIBLE! 
+Eso pensé hasta que empecé a beber. 
+Biolica. ¡ Es una droga mágica! 
+Intensificó mi intercambio de sustancias
+como en mi juventud y la
+grasa en el abdomen y los muslos
+comenzó a quemarse al instante. 
+Día a día me empecé a sentir 
+mejor, mi marido comenzó de nuevo 
+a hacerme cumplidos. Ya
+he bajado 12 kilos y me veo bien.
+ ¡genial! Pruebe Biolica y usted 
+volverá a amarse a sí mismo otra vez.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="sec6">
+				<div class="container">
+				<div class="title">
+					<h3>BIOLICA</h3>
+				</div>
+				<div class="subtitle">
+					<p>¡COMIENZA UNA NUEVA VIDA CON UN CUERPO DELGADO HOY!</p>
+				</div>
+				<div class="product-img">
+					<img src="img/product.png" alt="">
+				</div>
+		</div>
+		</section>
+		<section class="form-section">
+			<div class="container">
+				<div class="price-block">
+					<div class="oldprice">
+						<span class="labelForLandingInfoApi">$</span>
+						<span class="oldPriceForLandingInfoApi pricedote">218.000</span>
+					</div>
+					<div class="newprice">
+						<span class="labelForLandingInfoApi">$</span>
+						<span class="priceForLandingInfoApi pricedote">109.000</span>
+					</div>
+				</div>
+				<div class="form-section__title">
+					<span>ADELGAZAMIENTO-RAPIDO  <br>1 TRATAMIENTO</span>
+					<span>Sin efecto yo-yo</span>
+				</div>
+				<div class="form-block">
+					<div class="form-block__title">
+						<span>El descuento del 50% solo es válido hasta</span>
+					</div>
+					<div class="form-block__timer timer">
+
+						<span class="hour">
+							<span class="num hour0">-</span>
+							<span class="num hour1">-</span>
+						</span>
+						:
+						<span class="minute">
+							<span class="num min0">-</span>
+							<span class="num min1">-</span>
+						</span> 
+						:
+						<span class="second">
+							<span class="num sec0">-</span>
+							<span class="num sec1">-</span>
+						</span>
+					</div>
+					<form class="form" action="" method="POST" id="form">
+						<input type="hidden" name="country" value="CO">
+						<input type="text" name="name" placeholder="Nombre" required="required">
+						<input type="tel" name="phone" placeholder="Número de Teléfono" required="required">
+						<button type="submit">PEDIR</button>
+					</form>
+					<div class="form-price">
+						<div class="form-price__product">
+							<img src="img/mini-product.png" alt="">
+						</div>
+						<div class="form-price__price">
+							<span class="oldprice">
+								Precio antiguo 
+								<s><span class="labelForLandingInfoApi">$</span>
+								<span class="oldPriceForLandingInfoApi pricedote">218.000</span></s>
+							</span>
+							<span class="newprice">
+								Nuevo precio<br>
+								<span class="labelForLandingInfoApi">$</span>
+								<span class="priceForLandingInfoApi pricedote">109.000</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-icons">
+					<img src="img/footer-icons.png" alt="">
+				</div>
+				<div class="privacy">
+					<a href="../privacy.lr-land.com/privacy.html">Privacy Policy</a>
+				</div>
+			</div>
+		</footer>
+	</main>
+
+
+	<script type="text/javascript" src="../code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="../code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="../cdn.jsdelivr.net/npm/slick-carousel_401.8.1/slick/slick.min.js"></script>
+	
+ <script>
+        $(document).ready(function() {
+            $("a[href*=#]").on("click", function(e) {
+                var anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $(anchor.attr('href')).offset().top
+                }, 777);
+                e.preventDefault();
+                return false;
+            });
+        });
+    </script>
+
+	  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.wrapper').slick({
+        adaptiveHeight: true,
+        arrows: false,
+        dots: true
+      });
+    });
+    </script>
+      <script type="text/javascript">
+    $(document).ready(function(){
+      $('.comment-slide').slick({
+        dots: true,
+  		adaptiveHeight: true,
+  		slidesToShow: 1,
+  		arrows: false,
+      });
+    });
+    </script>
+    <!--Счетчики метрик для вебмастеров-->
+
+
+
+
+
+
+<!-- WIDGETS -->
+
+
+
+<!-- END WIDGETS -->
+
+<!--Ловим параметры для юзера -->
+<script>
+        paramData1 = '';
+    </script><script src="../app.leadreaktor.lat/validator/v3/jquery.maskedinput-1.2.2.js"></script>
+<script src="../app.leadreaktor.lat/validator/v3/intlTelInput.min.js"></script>
+<script>
+    infoForLannding = [{"nameCountry":"Colombia","code":"CO","price":109700,"oldPrice":219400,"labelPrice":"$"},{"nameCountry":"Peru","code":"PE","price":139,"oldPrice":278,"labelPrice":"Soles"}];
+    countArrayForLannding = infoForLannding.length;
+    domain = "l4.co.biolica.net";
+    defaultSelectCountry = "";
+    $('form').attr( "action","getform.php@flow_hash=").attr("method","post");
+        if ($('base').length == 0){$('head').prepend('<base >');}
+    else{$('base').attr("href", "default.htm");}
+    </script>
+<script src="../app.leadreaktor.lat/validator/v3/validator.js"></script> <!--Валидатор--> <script>
+    let pricedote = document.querySelectorAll('.pricedote');
+    
+    pricedote.forEach(item =>  {
+    let dote = item.innerHTML.split('');
+    dote.splice(3, 0, ".");
+    item.innerHTML = dote.join('');
+  })
+    </script>
+</body>
+</html>
+
